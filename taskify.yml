@@ -8,3 +8,20 @@ tasks:
 
     test:
         cmd: pytest
+
+    sdist:
+        cmd: python setup.py sdist
+
+    testpypi:
+        deps:
+            - sdist
+        cmds:
+            - python setup.py clean
+            - twine upload --repository testpypi dist/*
+    
+    pypi:
+        deps:
+            - sdist
+        cmds:
+            - python setup.py clean
+            - twine upload --repository pypi dist/*

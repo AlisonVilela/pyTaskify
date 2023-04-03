@@ -7,11 +7,12 @@ with open('README.md', 'r') as f:
 setup(
     name='pyTaskify',
     version=__version__,
-    description='Um task runner em Python',
+    description='A Task Runner written in Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Alison Vilela',
     author_email='vilela@alison.dev',
+    url='https://github.com/AlisonVilela/pyTaskify',
     packages=['pytaskify'],
     install_requires=[
         'PyYAML'
