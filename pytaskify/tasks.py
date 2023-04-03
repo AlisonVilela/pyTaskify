@@ -12,7 +12,7 @@ def validate_task_type(task_name, tasks_config):
     :param tasks_config: The configuration containing the tasks.
 
     :return: None
-    
+
     :raises: SystemExit if the task is not valid.
     """
     task = tasks_config.get(task_name)

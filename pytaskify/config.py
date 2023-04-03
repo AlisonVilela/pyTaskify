@@ -56,5 +56,12 @@ def load_config(filename):
             module_file_path = os.path.join(module_path, 'taskify.yml')
             module_config = load_config(module_file_path)
             config[module_name] = module_config
+            if 'env' in config:
+                if 'env' in config[module_name]:
+                    new_env = config['env']
+                    new_env.update(config[module_name]['env'])
+                    config[module_name]['env'] = new_env
+                else:
+                    config[module_name]['env'] = config['env']
 
     return config

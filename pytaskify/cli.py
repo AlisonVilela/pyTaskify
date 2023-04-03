@@ -47,7 +47,7 @@ def main():
             task_name = arg
             task_args = current_config["tasks"][task_name].get("args", {})
             parsed_args = parse_task_args(task_args, args[index_arg+1:])
-            execute_task(task_name, current_config["tasks"], parsed_args, config["work_dir"])
+            execute_task(task_name, current_config, parsed_args)
             sys.exit()
         elif arg in ["-l", "--list"]:
             list_all(current_config)
