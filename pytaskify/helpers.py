@@ -1,5 +1,5 @@
 """
-This module contains helper functions that are used by the pyTaskify CLI.
+This module contains helper functions that are used by the pyTaskify.
 """
 
 from pytaskify.version import __version__
