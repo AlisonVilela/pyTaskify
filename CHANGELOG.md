@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2023-04-03
+Bug fixes
+### Fixes
+- Work_dir was not correct
+- Environment variables were not loading correctly
+
 ## [0.0.1] - 2023-04-03
 First commit
 ### Added
