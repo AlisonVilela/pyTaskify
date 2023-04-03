@@ -1,0 +1,27 @@
+# Arquivos gerados automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+
+# Diretório de ambiente virtual (venv)
+venv/
+
+# Arquivos gerados pela IDE ou editor de código
+.vscode/
+*.idea/
+
+# Arquivos de log e saída
+*.log
+*.out
+
+# Arquivos de distribuição
+build
+dist
+
+# Arquivos gerados por ferramentas de teste
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml

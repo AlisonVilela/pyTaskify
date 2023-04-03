@@ -1,0 +1,6 @@
+@Unpublished{Vilela2023,
+    Title  = {A Task Runner written in Python.},
+    Author = {Alison Vilela},
+    Year   = {2023},
+    Url    = {https://github.com/AlisonVilela/pyTaskify}
+}

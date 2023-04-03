@@ -1,0 +1,43 @@
+[MASTER]
+
+# Define o comprimento máximo de uma linha
+max-line-length=120
+
+# Define o estilo de codificação
+indent-string = "    "
+good-names=i,j,k,ex,Run,_,E,__
+
+[MESSAGES CONTROL]
+
+# Ignora a regra que exige docstrings para funções
+disable=C0116,R0914,R0912,R0915
+
+# Ignora a regra que exige nomes com pelo menos dois caracteres
+good-names=_
+
+# Ignora a regra que exige espaços após vírgulas
+ignore-space-after-comma=yes
+
+# Ignora a regra que exige espaços antes e depois de operadores binários
+missing-space-around-operator=yes
+
+# Ignora a regra que exige espaços após o sinal de atribuição
+bad-whitespace=no-tabs
+
+# Ignora a regra que exige espaços antes e depois do sinal de atribuição
+missing whitespace after =,; :=
+
+# Ignora a regra que exige espaços antes e depois dos dois pontos em um slice
+slice-lower-xxx=slice-lower
+
+# Ignora a regra que exige espaços antes e depois dos dois pontos em um slice
+slice-upper-xxx=slice-upper
+
+# Ignora a regra que exige espaços antes e depois dos dois pontos em um slice
+slice-step-xxx=slice-step
+
+# Ignora a regra que exige espaços antes e depois dos parênteses em chamadas de função
+function-call-spacing=no
+
+# Ignora a regra que exige que os nomes de classe tenham pelo menos três caracteres
+min-class-name-length=3

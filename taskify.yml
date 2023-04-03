@@ -1,0 +1,10 @@
+version: 1
+
+tasks:
+    lint:
+        cmd: pylint pytaskify
+        env:
+            PYTHONPATH: ./pytaskify
+
+    test:
+        cmd: pytest
